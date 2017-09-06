@@ -4,3 +4,5 @@ This is my professional portfolio. it uses AWS
 
 Git and github
 SSH
+html
+CSS

@@ -2,5 +2,5 @@
 This is my professional portfolio. it uses AWS
 # Technologies Used
 
-Git and github:
+Git and github
 SSH

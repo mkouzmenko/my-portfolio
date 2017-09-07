@@ -6,7 +6,7 @@ phases:
       - echo Nothing to do yet
 artifacts:
   files:
-    - index,html
+    - index.html
     - favicon.ico
     - resume_SDLC_architect.pdf
     - styles/*

@@ -115,8 +115,8 @@ h1, h2, h3, h4, h5, h6 {
 .section__exampleWrapper,
 .section__example {
   display: inline-block;
-  height: 35rem;
-  width: 35rem;
+  height: 5rem;
+  width: 30rem;
 }
 
 .section__exampleWrapper {
@@ -124,7 +124,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__example {
-  border-radius: 100%;
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -137,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__exampleTitle{
-  font-size: 3.4rem;
+  font-size: 1.4rem;
   text-align: center;
   text-transform: uppercase;
   width: 90%;
@@ -162,12 +161,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .section--social {
   float: right;
-  line-height: 10rem;
+  line-height: 1rem;
   margin-right: 2rem;
 }
 
 .social {
-  margin-right: 0.75rem;
+  margin-right: 0.rem;
 }
 
 .socialWrapper:last-child .social {
@@ -176,8 +175,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .socialWrapper {
   display: inline-block;
-  font-size: 3rem;
+  font-size: 2rem;
 }
+
+.scrollmenu {
+  display: inline-block;
+  float: right;
+  line-height: 10rem;
+  margin-right: 20rem;
+  font-size: 2rem;
+}
+
 
 
 /*

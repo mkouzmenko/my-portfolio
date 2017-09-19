@@ -93,7 +93,7 @@ const myWork = [
 
   {
     'title': "Department of Treasury – IRS",
-    'href': "https://example.com",
+    'href': "https://www.irs.gov/businesses/small-businesses-self-employed/maryland-1",
     'desc': "\
 •	Rollout of Rational Team Concert 4.0 ( LDAP, WAS 8.0, Windows 7 )\
 •	Improvement of ETL engine for upload the date from ClearQuest, ClearCase, RTC \
@@ -173,7 +173,7 @@ ClearCase 8.0/ ClearQuest 8.0(UCM),  BuildForge 7.1,  Ant/Perl/Shell scripts.\
 
   {
     'title': "Deloitte Consulting",
-    'href': "https://deloitte.com",
+    'href': "https://www2.deloitte.com",
     'desc': "\
 •	Migration CLM to new Data Center with URI renaming procedure and users accounts migration to new LDAP.\
 •	Design and implementation of component structure, stream strategy, requirement and change management disciplines,\

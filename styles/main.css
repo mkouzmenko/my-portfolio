@@ -159,10 +159,12 @@ h4, h5, h6 {
   Header
 */
 
-.section__heading--largest {
-  float: left;
-  font-size: 5rem;
-  margin-left: 2rem;
+.header {
+  background-color: gray;
+}
+
+.img-resposive {
+  float: right;
 }
 
 .section--social {
@@ -183,6 +185,9 @@ h4, h5, h6 {
 .socialWrapper {
   display: inline-block;
   font-size: 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 .scrollmenu {
@@ -247,7 +252,7 @@ h4, h5, h6 {
 
 #menu ul{
   list-style:none;
-
+  padding-left: 1rem;
 }
 
 #menu ul li{
@@ -280,4 +285,5 @@ h4, h5, h6 {
 
 #menu ul li:hover > ul{
   display: block;
+
 }

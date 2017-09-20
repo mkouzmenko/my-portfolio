@@ -102,6 +102,19 @@ h4, h5, h6 {
   text-align: center;
 }
 
+
+.section--description {
+  font-size: 2.8rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.section__description {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 40%;
+}
+
 .section__text--centered {
   position: absolute;
   top: 50%;
@@ -145,15 +158,6 @@ h4, h5, h6 {
   margin-left: -50%;
   margin-top: -50%;
 }
-
-.section__exampleTitle{
-  font-size: 1.4rem;
-  text-align: center;
-  text-transform: uppercase;
-  width: 90%;
-}
-
-
 
 /*
   Header
@@ -262,7 +266,6 @@ h4, h5, h6 {
     text-align: left;
     float:left;
     position: relative;
-    opacity: .8;
 }
 
 #menu ul li a {
@@ -284,13 +287,15 @@ h4, h5, h6 {
 
 #menu ul li:hover > ul{
   display: block;
+
 }
 
-.section-customers{
+.section-cusrom {
+  font-size: 25px;
   height: 250px;
 }
 
 .footer{
   background-color: black;
-  height: 90px;
+  height: 150px;
 }

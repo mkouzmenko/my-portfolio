@@ -256,6 +256,10 @@ h5, h6 {
   opacity: 0.2;
 }
 
+.modal__description {
+  padding-top: 20px;
+}
+
 #menu ul{
   list-style:none;
   padding-left: 1rem;
@@ -267,7 +271,7 @@ h5, h6 {
     width: 120px;
     height: 20px;
     line-height: 20px;
-    text-align: left;
+    text-align: center;
     float:left;
     position: relative;
     opacity: .8;

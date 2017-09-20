@@ -4,6 +4,17 @@
     to be changed for theme changes
 */
 
+/*
+  COLORS
+  Sky
+    rgb(52, 152, 219)
+  Dark Blue
+    rgb(44, 62, 80)
+  Grey
+    rgb(127, 140, 141)
+  Cloud
+    rgb(236, 240, 241)
+*/
 *
 {
   margin: 0px;
@@ -76,58 +87,6 @@ h4, h5, h6 {
 
 
 /*
-  Header
-*/
-
-.header {
-  background-color: gray;
-}
-
-/* Menu*/
-
-.dropdown {
-  display: inline-block;
-  z-index: 99
-}
-
-#menu ul{
-  list-style:none;
-  padding-left: 1rem;
-}
-
-#menu ul li{
-    background-color: white;
-    border: 1px solid white;
-    width: 120px;
-    height: 20px;
-    line-height: 20px;
-    text-align: left;
-    float:left;
-    position: relative;
-    opacity: .9;
-}
-
-#menu ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
-  display: block;
-}
-
-#menu ul li a:hover {
-    background-color: grey;
-    color: white;
-}
-
-#menu ul ul{
-  display: none;
-}
-
-#menu ul li:hover > ul{
-  display: block;
-}
-
-/*
   Sections
 */
 
@@ -137,24 +96,10 @@ h4, h5, h6 {
   position: relative;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  z-index:-1
 }
 
 .section--alignCentered {
   text-align: center;
-}
-
-
-.section--description {
-  font-size: 2.8rem;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
-.section__description {
-  margin: 0 auto;
-  margin-bottom: 2rem;
-  width: 40%;
 }
 
 .section__text--centered {
@@ -200,6 +145,25 @@ h4, h5, h6 {
   margin-left: -50%;
   margin-top: -50%;
 }
+
+.section__exampleTitle{
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+
+
+/*
+  Header
+*/
+
+.header {
+  background-color: gray;
+}
+
+
 
 .section--social {
   display: inline-block;
@@ -282,4 +246,51 @@ h4, h5, h6 {
 
 .modal__image {
   opacity: 0.2;
+}
+
+#menu ul{
+  list-style:none;
+  padding-left: 1rem;
+}
+
+#menu ul li{
+    background-color: white;
+    border: 1px solid white;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    float:left;
+    position: relative;
+    opacity: .8;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  display: block;
+}
+
+#menu ul li a:hover {
+    background-color: grey;
+    color: white;
+}
+
+#menu ul ul{
+  position: absolute;
+  display: none;
+}
+
+#menu ul li:hover > ul{
+  display: block;
+}
+
+.section-customers{
+  height: 250px;
+}
+
+.footer{
+  background-color: black;
+  height: 90px;
 }

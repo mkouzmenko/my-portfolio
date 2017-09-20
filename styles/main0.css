@@ -1,0 +1,110 @@
+/*
+  Theme colors
+    All selectors with colors that would need
+    to be changed for theme changes
+*/
+
+.color--white {
+  color: white;
+}
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background-color: gray;
+  height: 65px;
+}
+
+.img-resposive{
+  padding-left: 2px;
+  padding-top: 2px;
+}
+
+.social {
+  margin-right: 0.rem;
+}
+
+.section--social {
+  display: inline-block;
+  position: fixed;
+  line-height: 1rem;
+}
+
+/* Menu*/
+
+.dropdown {
+  display: inline-block;
+  z-index: 99;
+}
+
+#menu ul{
+  list-style:none;
+  padding-left: 1rem;
+}
+
+#menu ul li{
+    background-color: white;
+    border: 1px solid white;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    float:left;
+    position: relative;
+    opacity: .9;
+}
+
+
+.socialWrapper {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding-top: 0rem;
+  padding-left: 1rem;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  display: block;
+}
+
+#menu ul li a:hover {
+    background-color: grey;
+    color: white;
+}
+
+#menu ul ul{
+  display: none;
+}
+
+#menu ul li:hover > ul{
+  display: block;
+}
+
+.section_1{
+  background-color: blue;
+  height: 685px;
+}
+
+.section__text--centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+
+}
+
+.section_2{
+  background-color: gray;
+  height: 200px;
+}
+.footer{
+  background-color: black;
+  height: 90px;
+}

@@ -266,6 +266,7 @@ h4, h5, h6 {
     text-align: left;
     float:left;
     position: relative;
+    opacity: .8;
 }
 
 #menu ul li a {
@@ -287,5 +288,4 @@ h4, h5, h6 {
 
 #menu ul li:hover > ul{
   display: block;
-
 }

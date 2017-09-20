@@ -270,6 +270,7 @@ h5, h6 {
     text-align: left;
     float:left;
     position: relative;
+    opacity: .8;
 }
 
 #menu ul li a {

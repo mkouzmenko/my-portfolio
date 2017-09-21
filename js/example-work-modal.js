@@ -26,7 +26,9 @@ class ExampleWorkModal extends React.Component {
           <p className="modal__description">
               <h3> List of provided services: </h3>
               <h4>
-              {example.desc}
+                {example.desc.split("#").map(i => {
+                  return <div>{i}</div>;
+                  })}
               </h4>
           </p>
         </div>

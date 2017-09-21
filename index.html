@@ -6,65 +6,65 @@
     <link rel="stylesheet" href="styles/main.css"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cardo"/>
   </head>
 
   <body>
-    <main class="overflow--auto">
-      <div  class="header">
-          <a href="https://portfolio.infobridgegateway.com/">
-              <img src="images/Logo.jpg" class="img-resposive"/>
+    <div id='header'>
+      <a href="https://portfolio.infobridgegateway.com/">
+          <img src="images/Logo.jpg" class="img-resposive"/>
+      </a>
+
+      <ul class="section--social">
+
+        <!-- Link to Linked In profile -->
+        <li class="socialWrapper">
+          <a class="color--white social"
+            title="LinkedIn Profile"
+            target="_blank"
+            href="https://www.linkedin.com/in/mikhailkuzmenko">
+           <i class="fa fa-linkedin"></i>
           </a>
+        </li>
 
-          <ul class="section--social">
+        <!-- Link to GitHub profile -->
+        <li class="socialWrapper color--white">
+          <a class="social color--white"
+            title="Facebook Profile"
+            target="_blank"
+            href="https://www.facebook.com/mikhail.kuzmenko.5">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
 
-            <!-- Link to Linked In profile -->
-            <li class="socialWrapper">
-              <a class="color--white social"
-                title="LinkedIn Profile"
-                target="_blank"
-                href="https://www.linkedin.com/in/mikhailkuzmenko">
-               <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
+        <!-- Link to resume, probably a .pdf -->
+        <li class="socialWrapper">
+          <a class="social color--white"
+            title="Resume"
+            href="resume_SDLC_architect.pdf">
+            <i class="fa fa-file-text"></i>
+          </a>
+        </li>
 
-            <!-- Link to GitHub profile -->
-            <li class="socialWrapper color--white">
-              <a class="social color--white"
-                title="Facebook Profile"
-                target="_blank"
-                href="https://www.facebook.com/mikhail.kuzmenko.5">
-                <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-
-            <!-- Link to resume, probably a .pdf -->
-            <li class="socialWrapper">
-              <a class="social color--white"
-                title="Resume"
-                href="resume_SDLC_architect.pdf">
-                <i class="fa fa-file-text"></i>
-              </a>
-            </li>
-
-          <!--Menu -->
-          <div id="menu">
-            <ul>
-              <li> <a href="https://portfolio.infobridgegateway.com/#home">Home</a></li>
-              <li><a href="https://portfolio.infobridgegateway.com/#about-au">About Us</a></li>
-            </ul>
-          </div>
+      <!--Menu -->
+      <div id="menu">
+        <ul>
+          <li> <a href="https://portfolio.infobridgegateway.com/#home">Home</a></li>
+          <li><a href="https://portfolio.infobridgegateway.com/#about-au">About Us</a></li>
         </ul>
-
       </div>
+    </ul>
+    <hr />
+  </div>
 
-</main>
+  <div id='body'>
 
     <section class="background--skyBlue section">
       <h2 class="color--cloud margin--none section__text--centered">
       <img src="images/ITconsulting.png"  alt="" title="Nurse using a digital tablet. Large copy-space"
-        width="1315" height="715" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+        width="1360" height="700" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
       </h2>
     </section>
 
@@ -83,5 +83,6 @@
 <script type="text/javascript" src="dist/bundle.js">
 </script>
 
+</div>
 </body>
 </html>

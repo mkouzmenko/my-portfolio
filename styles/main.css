@@ -181,7 +181,7 @@ h4, h5, h6 {
     text-align: left;
     float:left;
     position: relative;
-    opacity: .8;
+    opacity: .89;
 }
 
 #menu ul li a {
@@ -299,6 +299,7 @@ h4, h5, h6 {
 }
 
 .footer{
+  font-size: 14px;
   background-color: black;
   color: white;
   height: 150px;

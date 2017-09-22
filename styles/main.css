@@ -298,6 +298,17 @@ h4, h5, h6 {
   height: 250px;
 }
 
+.about
+{
+  background-color: blue;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  font-size: 20px;
+  color: white;
+  opacity: .88;
+}
+
+
 .footer{
   font-size: 14px;
   background-color: black;

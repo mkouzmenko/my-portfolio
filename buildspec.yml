@@ -13,7 +13,7 @@ artifacts:
     - index.html
     - favicon.ico
     - resume_SDLC_architect.pdf
-    - links/*
+    - links/**/*
     - styles/*
-    - images/*
+    - images/**/*
     - dist/bundle.js

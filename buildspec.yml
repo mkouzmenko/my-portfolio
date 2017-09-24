@@ -16,4 +16,5 @@ artifacts:
     - links/**/*
     - styles/**/*
     - images/**/*
+    - docs/**/*
     - dist/bundle.js

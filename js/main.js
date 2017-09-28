@@ -33,7 +33,7 @@ const myWork = [
 • Provided ongoing support and administration of all IBM Rational tools",
         'image': {
           'desc': "example screenshot of a project involving code",
-          'src': "images/example2.png",
+          'src': "images/sears.png",
           'comment': ""
         }
   },
@@ -57,7 +57,7 @@ const myWork = [
 •	Provided ongoing support and administration of all IBM Rational tools#",
     'image': {
         'desc': "Serverless Portfolio",
-        'src': "images/example2.png",
+        'src': "images/pitney.png",
         'comment': ""
       }
 
@@ -81,7 +81,7 @@ UI presentation level development, based on PHP for Apache. Data Warehouse desig
 ",
     'image': {
         'desc': "example screenshot of a project involving cats",
-        'src': "images/example2.png",
+        'src': "images/fms.png",
         'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
                     https://www.flickr.com/photos/37287295@N00/2540855181`
     }
@@ -99,7 +99,7 @@ UI presentation level development, based on PHP for Apache. Data Warehouse desig
 ",
         'image': {
         'desc': "example screenshot of a project involving cats",
-        'src': "images/example2.png",
+        'src': "images/irs.png",
         'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
                     https://www.flickr.com/photos/37287295@N00/2540855181`
     }
@@ -123,7 +123,7 @@ o	Adjust version control component structure based on existing component structu
     ",
     'image': {
         'desc': "example screenshot of a project involving cats",
-        'src': "images/example2.png",
+        'src': "images/hscs.png",
         'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
                     https://www.flickr.com/photos/37287295@N00/2540855181`
     }
@@ -144,7 +144,7 @@ ClearCase 8.0/ ClearQuest 8.0(UCM),  BuildForge 7.1,  Ant/Perl/Shell scripts#\
 ",
   'image': {
         'desc': "example screenshot of a project involving cats",
-        'src': "images/example2.png",
+        'src': "images/cms.png",
         'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
                     https://www.flickr.com/photos/37287295@N00/2540855181`
     }
@@ -161,7 +161,7 @@ ClearCase 8.0/ ClearQuest 8.0(UCM),  BuildForge 7.1,  Ant/Perl/Shell scripts#\
 ",
         'image': {
         'desc': "example screenshot of a project involving cats",
-        'src': "images/example2.png",
+        'src': "images/ucop.png",
         'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
                     https://www.flickr.com/photos/37287295@N00/2540855181`
     }
@@ -191,7 +191,7 @@ integrated with IBM UrbanCode Deploy. (3 feature dependent projects in the relea
 ",
         'image': {
         'desc': "example screenshot of a project involving cats",
-        'src': "images/example2.png",
+        'src': "images/deloitte.png",
         'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
                     https://www.flickr.com/photos/37287295@N00/2540855181`
     }

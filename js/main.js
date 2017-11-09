@@ -30,9 +30,9 @@ const myWork = [
 •	Extensively used Shell and Perl scripts for automatic build and release process and Project Console report system#\
 •	Ongoing support and administration of all IBM Rational tools",
         'image': {
-          'desc': "example screenshot of a project involving code",
+          'desc': "Sears Holdings Corporation",
           'src': "images/sears.png",
-          'comment': ""
+          'comment': "Sears Holdings Corporation"
         }
   },
   {
@@ -54,7 +54,7 @@ const myWork = [
     'image': {
         'desc': "Serverless Portfolio",
         'src': "images/pitney.png",
-        'comment': ""
+        'comment': "Pitney Bowes"
       }
 
   },
@@ -76,11 +76,10 @@ UI presentation level development, based on PHP for Apache. Data Warehouse desig
 •	Worked with development groups to resolve tool problems and issues#\
 ",
     'image': {
-        'desc': "example screenshot of a project involving cats",
+        'desc': "Department of Treasury – FMS",
         'src': "images/fms.png",
-        'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                    https://www.flickr.com/photos/37287295@N00/2540855181`
-    }
+        'comment': "Department of Treasury – FMS"
+            }
   },
 
   {
@@ -94,12 +93,12 @@ UI presentation level development, based on PHP for Apache. Data Warehouse desig
 •	Integration of RQM and IBM Functional Tester#\
 ",
         'image': {
-        'desc': "example screenshot of a project involving cats",
+        'desc': "Department of Treasury – IRS",
         'src': "images/irs.png",
-        'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                    https://www.flickr.com/photos/37287295@N00/2540855181`
+        'comment': "Department of Treasury – IRS"
     }
   },
+
   {
     'title': "Health Care Service Corporation ( HCSC )",
     'href': "http://www.hcsc.com/",
@@ -116,10 +115,9 @@ o	Migration from ClearQuest 7.0.1 for RTC 3.0.1.3 (>100 projects in the list)#\
 •	IBM Build Forge and IBM RTC Integration #\
     ",
     'image': {
-        'desc': "example screenshot of a project involving cats",
+        'desc': "Health Care Service Corporation ( HCSC )",
         'src': "images/hscs.png",
-        'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                    https://www.flickr.com/photos/37287295@N00/2540855181`
+        'comment': "Health Care Service Corporation ( HCSC )"
     }
   },
 
@@ -137,10 +135,9 @@ ClearCase 8.0/ ClearQuest 8.0(UCM),  BuildForge 7.1,  Ant/Perl/Shell scripts#\
 •	Pilot project for prove of conception using Sonatype Nexus as artifacts repository manager\
 ",
   'image': {
-        'desc': "example screenshot of a project involving cats",
+        'desc': "CMS Centers for Medicare & Medicaid Services",
         'src': "images/cms.png",
-        'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                    https://www.flickr.com/photos/37287295@N00/2540855181`
+        'comment': "CMS Centers for Medicare & Medicaid Services"
     }
   },
 
@@ -154,10 +151,9 @@ ClearCase 8.0/ ClearQuest 8.0(UCM),  BuildForge 7.1,  Ant/Perl/Shell scripts#\
 •	IBM UrbanCode Deploy/Release incorporation 6.0.1 (POC)\
 ",
         'image': {
-        'desc': "example screenshot of a project involving cats",
+        'desc': "University of California, Office of the President (UCOP)",
         'src': "images/ucop.png",
-        'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                    https://www.flickr.com/photos/37287295@N00/2540855181`
+        'comment': "University of California, Office of the President (UCOP)"
     }
   },
 
@@ -184,12 +180,30 @@ integrated with IBM UrbanCode Deploy. (3 feature dependent projects in the relea
 •	RTC&Remedy integration with Rational Lifecycle Integration Adapters Tasktop Edition 1.2 (TaskTop)\
 ",
         'image': {
-        'desc': "example screenshot of a project involving cats",
+        'desc': "Deloitte Consulting",
         'src': "images/deloitte.png",
-        'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                    https://www.flickr.com/photos/37287295@N00/2540855181`
+        'comment': "Deloitte Consulting"
+    }
+  },
+
+  {
+    'title': "District of Columbia Courts",
+    'href': "https://www.dccourts.gov/",
+    'desc': "\
+•	Migration of IBM ClearCase/ClearQuest:#\
+•	> from version 8.0.0.6 to version 9.0.0.5#\
+•	> from Stand along Windows 2008 to VM Windows 2012#\
+•	> from Oracle 11g to Oracle 12c#\
+•	IBM CLM 6.0.4 installation and configuration#\
+•	IBM Functional Tester 8.1 installation and configuration#\
+",
+        'image': {
+        'desc': "District of Columbia Courts",
+        'src': "images/district.png",
+        'comment': "District of Columbia Courts"
     }
   }
+
 ]
 
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'))

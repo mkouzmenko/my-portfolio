@@ -148,7 +148,7 @@ ClearCase 8.0/ ClearQuest 8.0(UCM),  BuildForge 7.1,  Ant/Perl/Shell scripts#\
 •	Migrate RTC 3.0.1.2 from production to QA environment, upgrade RTC QA to 4.0.7 and rename URI#\
 •	Maintain build, promote, deploy for zOS with ISPF client#\
 •	Maintain multi branches of Puppet repository with GIT#\
-•	IBM UrbanCode Deploy/Release incorporation 6.0.1 (POC)\
+•	IBM UrbanCode Deploy/Release 6.0.1 incorporation \
 ",
         'image': {
         'desc': "University of California, Office of the President (UCOP)",

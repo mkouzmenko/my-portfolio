@@ -194,7 +194,6 @@ integrated with IBM UrbanCode Deploy. (3 feature dependent projects in the relea
 •	> from version 8.0.0.6 to version 9.0.0.5#\
 •	> from Stand along Windows 2008 to VM Windows 2012#\
 •	> from Oracle 11g to Oracle 12c#\
-•	IBM CLM 6.0.4 installation and configuration#\
 •	IBM Functional Tester 8.1 installation and configuration#\
 ",
         'image': {

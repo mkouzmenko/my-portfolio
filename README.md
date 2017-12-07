@@ -6,3 +6,8 @@ Git and github
 SSH
 html
 CSS
+
+Commands:
+ws #start concole
+npm run webpack-watch #pack code
+npm test-watch

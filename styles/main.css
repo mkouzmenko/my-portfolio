@@ -201,6 +201,11 @@ h4, h5, h6 {
     color: black;
 }
 
+#menu ul li a:focus {
+    background-color: gray;
+    color: black;
+}
+
 
 #menu ul ul{
   position: absolute;

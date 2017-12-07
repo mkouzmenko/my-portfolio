@@ -134,6 +134,7 @@ h4, h5, h6 {
   height: 5rem;
   width: 30rem;
   border-radius: 10px;
+  box-shadow: 2px 2px 1px black;
 }
 
 .section__exampleWrapper {
@@ -218,7 +219,9 @@ h4, h5, h6 {
 
 }
 
-
+.customer {
+  text-shadow: 1px 1px 1px #ffff;
+}
 .section--social {
   display: inline-block;
   position: fixed;

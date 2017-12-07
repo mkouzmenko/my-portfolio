@@ -133,6 +133,7 @@ h4, h5, h6 {
   display: inline-block;
   height: 5rem;
   width: 30rem;
+  border-radius: 10px;
 }
 
 .section__exampleWrapper {

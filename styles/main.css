@@ -196,6 +196,12 @@ h4, h5, h6 {
     color: white;
 }
 
+#menu ul li a:active {
+    background-color: grey;
+    color: black;
+}
+
+
 #menu ul ul{
   position: absolute;
   display: none;

@@ -52,6 +52,12 @@
       <div id="menu">
         <ul>
           <li> <a <a href="#" onclick="ShowHome()">Home</a></li>
+          <li><a href="#">Services</a>
+            <ul>
+              <li><a <a href="#" onclick="IBMCLMSaaS()">IBM CLM SaaS</a></li>
+            </ul>
+          </li>
+
           <li><a href="#">About Us</a>
             <ul>
               <li><a <a href="#" onclick="ShowAbout()">About Infobridge</a></li>
@@ -80,16 +86,15 @@
         <p> We can identify technology solutions that will help your business grow. </p>
         <br />
         <p>Here's how:</p>
-          <p> Investigate, formalize and document your current SDLC [AsIs model] </p>
-          <p> Provide our expertise with SDLC improvement, including required toolset [ToBe model] </p>
-          <p> Provide a prototype of the proposed SDLC with transition workflow [AsIs -> ToBe] </p>
-          <p> Implement SDLC environment and provide all trainings for your team </p>
-          <p> Transit all maintenance routine to your specialists , if required </p>
+          <p> &emsp;Investigate, formalize and document your current SDLC [AsIs model] </p>
+          <p> &emsp;Provide our expertise with SDLC improvement, including required toolset [ToBe model] </p>
+          <p> &emsp;Provide a prototype of the proposed SDLC with transition workflow [AsIs -> ToBe] </p>
+          <p> &emsp;Implement SDLC environment and provide all trainings for your team </p>
+          <p> &emsp;Transit all maintenance routine to your specialists , if required </p>
           <p> Just think of us as your trusted IT consultant, we’re always here and ready to help!</p>
         <hr />
         <br />
       </div>
-      }
 
       <div id="Certificates" class="certificates" style="display:none">
 
@@ -164,6 +169,29 @@
 
  </div>
 
+ <div id="IBMCLMSaaS" class="ibmclmsaas" style="display:none">
+   <hr />
+   <p>You can use your IBM Collaborativ Lifecycle Management tool (CLM 6.0.5) As a Service (SaaS)</p>
+   <p>CLM 6.0.5 ready for use with:</p>
+   <p>&emsp;Private VPC with 2 subnets (public for IHS EC2 and private for remaining EC2)</p>
+   <p>&emsp;IHS + WebSphere ND with 5 nodes (one node per application) </p>
+   <p>&emsp;CLM Applications: JTS, RTC, RQM, DOORS, DCC </p>
+   <p>&emsp;AWS RDS Oracle as a backend (license included)</p>
+   <p>&emsp;AWS Route 53 (public and private hosted zones)</p>
+   <p>&emsp;AWS Backups (Scheduled volume’s snapshots)</p>
+   <p> <class="socialWrapper"><a class="social color--white" title="RAD" href="https://portfolio.infobridgegateway.com/docs/AWS_CLM.pdf"> <i class="fa fa-file-text"></i> AWS Architecture</a>
+  </p>
+   <br />
+   <p>Here's how</p>
+     <p>&emsp;We need from you:</p>
+     <p>&emsp;&emsp; IBM CLM 6.0.5 licenses for required applications</p>
+     <p>&emsp;&emsp; List of required perojects</p>
+     <p>&emsp;&emsp; List of users with required permissions</p>
+     <p> IBM CLM wiil be ready for you in 1 week!</p>
+   <hr />
+   <br />
+ </div>
+
     </section>
 
     <section class="background--skyBlue section-cusrom">
@@ -192,18 +220,29 @@
 <script>function ShowHome() {
   document.getElementById('about').style['display'] = "none";
   document.getElementById('Certificates').style['display'] = "none";
+  document.getElementById('IBMCLMSaaS').style['display'] = "none";
 }
 </script>
 
 <script>function ShowAbout() {
   document.getElementById('about').style['display'] = "block";
   document.getElementById('Certificates').style['display'] = "none";
+  document.getElementById('IBMCLMSaaS').style['display'] = "none";
+
 }
 </script>
 
 <script>function ShowCertificates() {
   document.getElementById('about').style['display'] = "none";
   document.getElementById('Certificates').style['display'] = "block";
+  document.getElementById('IBMCLMSaaS').style['display'] = "none";
+}
+</script>
+
+<script>function IBMCLMSaaS() {
+  document.getElementById('about').style['display'] = "none";
+  document.getElementById('Certificates').style['display'] = "none";
+  document.getElementById('IBMCLMSaaS').style['display'] = "block";
 }
 </script>
 

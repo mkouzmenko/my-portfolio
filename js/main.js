@@ -7,17 +7,17 @@ const myWork = [
     'title': "Sears Holdings Corporation",
     'href': "https://www.sears.com",
     'desc': "\
-•	ClearCase/ClearQuest administration.#\
-•	Designe and implementation of RequisitePro repository based on MSSQL 2005#\
-•	Create Configuration Management Plans for software development projects#\
-•	IBM Rational ClearCase/Multisite installation#\
+•	Configuration Management Plans for software development projects#\
+•	IBM Rational ClearCase/ClearQuest/Multisite installation#\
 •	Design and implementation of integrated ClearQuest/ClearCase environment for change management#\
 •	Design, implementation and support of Multisite replicated structure#\
+•	Designe and implementation of RequisitePro repository based on MSSQL 2005#\
 •	Design, implementation of SCM policy based on CC triggers (Perl)#\
 •	Migration from Windows NT domain to Active directory domain#\
 •	ClearCase/MultiSite UCM repository implementation for distributed project’s development teams in India, Chicago and Hoffman Estate#\
 •	Improve the efficiency of CCRC with ClearCase triggers (Perl)#\
 •	Migration from SSV,CVS and PVCS Version control systems to ClearCase#\
+•	ClearCase/ClearQuest administration#\
 •	ClearQuest schema Improvement#\
 •	ClearCase LDAP configurations for AIX 3.5 OS#\
 •	SAMBA configurations for AIX 3.5 and SunOS 10#\
@@ -26,9 +26,9 @@ const myWork = [
 ~ deploy process automation, triggered on ClearCase rebase#\
 ~ backup automation process for NATAPP#\
 ~ garbage cleaner scripts for ClearCase repository (Perl)#\
-• Migration the build process from Apache-maven-2.0.8 ,CrueseControl 1.7.0, SVN to <Apache-maven-2.0.8, CrueseControl 1.7.0, ClearCase> for RAD 7.0#\
+• Migration the build migration from <Apache-maven-2.0.8 ,CrueseControl 1.7.0, SVN> to <Apache-maven-2.0.8, CrueseControl 1.7.0, ClearCase> for RAD 7.0#\
 •	Extensively used Shell and Perl scripts for automatic build and release process and Project Console report system#\
-•	Ongoing support and administration of all IBM Rational tools",
+•	Ongoing support and administration for IBM Rational tools",
         'image': {
           'desc': "Sears Holdings Corporation",
           'src': "images/sears.png",
@@ -46,7 +46,7 @@ const myWork = [
 •	DoxyGen project1.5.7.1 integration with BuildForge#\
 •	Clearcase Integration with BuildForge 7.0.2 using Perl scripting#\
 •	MultiSite Base ClearCase repository implementation for distributed projects development teams in Shelton, Prodidact, Minn#\
-•	Develop policy and scripts for build automation  based on perl, ant, VisBuildPro under BuildForge#\
+•	Build automation scripts development based on Perl, Ant, VisBuildPro under BuildForge#\
 •	Extensively used Shell and Perl scripts for build automatiion and release process#\
 •	Report System designed and implemented based on Build Forge build and materials (build forge adapters)#\
 •	Develop policy and scripts for automation deployment based on Install Anywhere#\
@@ -113,6 +113,7 @@ UI presentation level development, based on PHP for Apache. Data Warehouse desig
 •	HP Quality Center and IBM RTC integration (TaskTop Sync)#\
 •	Jenkins and IBM RTC Integration #\
 •	IBM Build Forge and IBM RTC Integration #\
+•	WAS 7.0 administration and maintainance #\
     ",
     'image': {
         'desc': "Health Care Service Corporation ( HCSC )",
@@ -179,6 +180,7 @@ integrated with IBM UrbanCode Deploy. (3 feature dependent projects in the relea
 •	QA automation based on integration of RQM/RTF and UrbanCode Deployment with RQM Plugin#\
 •	DB deployment automation based on integration of IBM DaticalDB and IBM UrbanCode Deployment with DaticalDB Plugin#\
 •	RTC&Remedy integration with Rational Lifecycle Integration Adapters Tasktop Edition 1.2 (TaskTop)\
+•	WAS 8.5.5 administration and maintainance #\
 ",
         'image': {
         'desc': "Deloitte Consulting",
@@ -199,6 +201,7 @@ integrated with IBM UrbanCode Deploy. (3 feature dependent projects in the relea
 ~	> from Oracle 11g to Oracle 12c#\
 ~	> 56 vobs and 15 schemas was migrated #\
 •	IBM Functional Tester 8.1 installation and configuration#\
+•	WAS 9.0.0.5 administration and maintainance #\
 ",
         'image': {
         'desc': "District of Columbia Courts",

@@ -59,7 +59,13 @@ h1, h2, h3{
 }
 
 h4, h5, h6 {
-  font-size: 1.9rem;
+  font-family: "Courier New", Courier, monospace;
+  background-color: blue;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  font-size: 18px;
+  color: white;
+  opacity: .75;
 }
 
 /*
@@ -280,6 +286,7 @@ h4, h5, h6 {
   font-size: 4rem;
   z-index: 1;
   curson: pointer;
+  color: red;
 }
 
 .modal__text {

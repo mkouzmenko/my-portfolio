@@ -22,10 +22,10 @@ const myWork = [
 •	ClearCase LDAP configurations for AIX 3.5 OS#\
 •	SAMBA configurations for AIX 3.5 and SunOS 10#\
 •	Develop scripts for:#\
-->	  build process automation#\
-->	  deploy process automation, triggered on ClearCase rebase#\
-->	  backup automation process for NATAPP#\
-->	  garbage cleaner scripts for ClearCase repository (Perl)#\
+~ build process automation#\
+~ deploy process automation, triggered on ClearCase rebase#\
+~ backup automation process for NATAPP#\
+~ garbage cleaner scripts for ClearCase repository (Perl)#\
 • Migration the build process from Apache-maven-2.0.8 ,CrueseControl 1.7.0, SVN to <Apache-maven-2.0.8, CrueseControl 1.7.0, ClearCase> for RAD 7.0#\
 •	Extensively used Shell and Perl scripts for automatic build and release process and Project Console report system#\
 •	Ongoing support and administration of all IBM Rational tools",
@@ -104,10 +104,10 @@ UI presentation level development, based on PHP for Apache. Data Warehouse desig
     'href': "http://www.hcsc.com/",
     'desc': "\
 •	Adjusted existing SDLC and implement on IBM RTC#\
-o	Adjust existing RTC Scram template to customer (HCSC) needs#\
-o	Adjust workflow/attributes/presentations based on existing workflow from ClearQuest#\
-o	Created master/slave project architecture structure for centralize the control and simplify maintenance#\
-o	Migration from ClearQuest 7.0.1 for RTC 3.0.1.3 (>100 projects in the list)#\
+•	Adjust existing RTC Scram template to customer (HCSC) needs#\
+•	Adjust workflow/attributes/presentations based on existing workflow from ClearQuest#\
+•	Created master/slave project architecture structure for centralize the control and simplify maintenance#\
+•	Migration from ClearQuest 7.0.1 for RTC 3.0.1.3 (>100 projects in the list)#\
 •	RTC triggers development (Dojo script)#\
 •	Adviser/Participant plugins development (RTC SDK 3.0.1.3, java based)#\
 •	HP Quality Center and IBM RTC integration (TaskTop Sync)#\
@@ -145,7 +145,8 @@ ClearCase 8.0/ ClearQuest 8.0(UCM),  BuildForge 7.1,  Ant/Perl/Shell scripts#\
     'title': "University of California, Office of the President (UCOP)",
     'href': "http://www.ucop.edu/",
     'desc': "\
-•	Migrate RTC 3.0.1.2 from production to QA environment, upgrade RTC QA to 4.0.7 and rename URI#\
+•	Migrate RTC 3.0.1.2 from production to QA environment#\
+• Upgrade RTC to 4.0.7 and rename URI#\
 •	Maintain build, promote, deploy for zOS with ISPF client#\
 •	Maintain multi branches of Puppet repository with GIT#\
 •	IBM UrbanCode Deploy/Release 6.0.1 incorporation \

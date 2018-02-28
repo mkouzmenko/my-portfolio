@@ -191,11 +191,13 @@ integrated with IBM UrbanCode Deploy. (3 feature dependent projects in the relea
     'title': "District of Columbia Courts",
     'href': "https://www.dccourts.gov/",
     'desc': "\
+• IBM CLM 6.0.5 installation and configuration (Enterprise topology, Oracle 12R2, WebSphere 9.0)#\
+• Migration of IBM RequisitePro 7.1.3.6 to IBM DOORS Next Generation 6.0.5 (22 projects migrated)#\
 •	Migration of IBM ClearCase/ClearQuest:#\
-•	> from version 8.0.0.6 to version 9.0.0.5#\
-•	> from Stand along Windows 2008 to VM Windows 2012#\
-•	> from Oracle 11g to Oracle 12c#\
-	> 56 vobs and 15 schemas was migrated #\
+~	> from version 8.0.0.6 to version 9.0.0.5#\
+~	> from Stand along Windows 2008 to VM Windows 2012#\
+~	> from Oracle 11g to Oracle 12c#\
+~	> 56 vobs and 15 schemas was migrated #\
 •	IBM Functional Tester 8.1 installation and configuration#\
 ",
         'image': {

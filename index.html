@@ -54,6 +54,7 @@
           <li> <a <a href="#" onclick="ShowHome()">Home</a></li>
           <li><a href="#">Services</a>
             <ul>
+              <li><a <a href="#" onclick="IBMSDLC()">SDLC</a></li>
               <li><a <a href="#" onclick="IBMCLMSaaS()">IBM CLM SaaS</a></li>
               <li><a <a href="#" onclick="IBMUCDSaaS()">IBM UCD SaaS</a></li>
             </ul>
@@ -170,6 +171,16 @@
 
  </div>
 
+ <div id="IBMSDLC" class="ibmsaas" style="display:none">
+   <table style="width:100%">
+   <tr>
+       <td><li class="socialWrapper"><a class="social color--white" title="UCD" href="https://portfolio.infobridgegateway.com/docs/InfoBridge_SDLC_Service_List.pdf"> <i class="fa fa-file-text"></i> SDLC service List</a> </li>
+       </td>
+   </tr>
+</table>
+
+ </div>
+
  <div id="IBMCLMSaaS" class="ibmsaas" style="display:none">
    <hr />
    <p>You can use your IBM Collaborativ Lifecycle Management tool (CLM 6.0.5) As a Service (SaaS)</p>
@@ -245,6 +256,9 @@
   document.getElementById('Certificates').style['display'] = "none";
   document.getElementById('IBMCLMSaaS').style['display'] = "none";
   document.getElementById('IBMUCDSaaS').style['display'] = "none";
+  document.getElementById('IBMSDLC').style['display'] = "none";
+
+
 
 }
 </script>
@@ -254,6 +268,7 @@
   document.getElementById('Certificates').style['display'] = "none";
   document.getElementById('IBMCLMSaaS').style['display'] = "none";
   document.getElementById('IBMUCDSaaS').style['display'] = "none";
+  document.getElementById('IBMSDLC').style['display'] = "none";
 }
 </script>
 
@@ -262,6 +277,16 @@
   document.getElementById('Certificates').style['display'] = "block";
   document.getElementById('IBMCLMSaaS').style['display'] = "none";
   document.getElementById('IBMUCDSaaS').style['display'] = "none";
+  document.getElementById('IBMSDLC').style['display'] = "none";
+}
+</script>
+
+<script>function IBMSDLC() {
+  document.getElementById('about').style['display'] = "none";
+  document.getElementById('Certificates').style['display'] = "none";
+  document.getElementById('IBMCLMSaaS').style['display'] = "none";
+  document.getElementById('IBMUCDSaaS').style['display'] = "none";
+  document.getElementById('IBMSDLC').style['display'] = "block";
 }
 </script>
 
@@ -270,6 +295,7 @@
   document.getElementById('Certificates').style['display'] = "none";
   document.getElementById('IBMCLMSaaS').style['display'] = "block";
   document.getElementById('IBMUCDSaaS').style['display'] = "none";
+  document.getElementById('IBMSDLC').style['display'] = "none";
 }
 </script>
 
@@ -278,6 +304,7 @@
   document.getElementById('Certificates').style['display'] = "none";
   document.getElementById('IBMCLMSaaS').style['display'] = "none";
   document.getElementById('IBMUCDSaaS').style['display'] = "block";
+  document.getElementById('IBMSDLC').style['display'] = "none";
 }
 </script>
 

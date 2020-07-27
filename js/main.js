@@ -100,7 +100,7 @@ UI presentation level development, based on PHP for Apache. Data Warehouse desig
   },
 
   {
-    'title': "Health Care Service Corporation ( HCSC )",
+    'title': "Health Care Service Corporation",
     'href': "http://www.hcsc.com/",
     'desc': "\
 •	Adjusted existing SDLC and implement on IBM RTC#\
@@ -116,14 +116,14 @@ UI presentation level development, based on PHP for Apache. Data Warehouse desig
 •	WAS 7.0 administration and maintainance #\
     ",
     'image': {
-        'desc': "Health Care Service Corporation ( HCSC )",
+        'desc': "Health Care Service Corporation ",
         'src': "images/hscs.png",
-        'comment': "Health Care Service Corporation ( HCSC )"
+        'comment': "Health Care Service Corporation"
     }
   },
 
   {
-    'title': "CMS Centers for Medicare & Medicaid Services",
+    'title': "Centers for Medicare Services",
     'href': "https://www.cms.gov/",
     'desc': "\
 •	ClearCase/ClearQuest administration#\
@@ -136,14 +136,14 @@ ClearCase 8.0/ ClearQuest 8.0(UCM),  BuildForge 7.1,  Ant/Perl/Shell scripts#\
 •	Pilot project for prove of conception using Sonatype Nexus as artifacts repository manager\
 ",
   'image': {
-        'desc': "CMS Centers for Medicare & Medicaid Services",
+        'desc': "Centers for Medicare Services",
         'src': "images/cms.png",
-        'comment': "CMS Centers for Medicare & Medicaid Services"
+        'comment': "Centers for Medicare Services"
     }
   },
 
   {
-    'title': "University of California, Office of the President (UCOP)",
+    'title': "University of California",
     'href': "http://www.ucop.edu/",
     'desc': "\
 •	Migrate RTC 3.0.1.2 from production to QA environment#\
@@ -153,9 +153,9 @@ ClearCase 8.0/ ClearQuest 8.0(UCM),  BuildForge 7.1,  Ant/Perl/Shell scripts#\
 •	IBM UrbanCode Deploy/Release 6.0.1 incorporation \
 ",
         'image': {
-        'desc': "University of California, Office of the President (UCOP)",
+        'desc': "University of California",
         'src': "images/ucop.png",
-        'comment': "University of California, Office of the President (UCOP)"
+        'comment': "University of California"
     }
   },
 
@@ -208,7 +208,44 @@ integrated with IBM UrbanCode Deploy. (3 feature dependent projects in the relea
         'src': "images/district.png",
         'comment': "District of Columbia Courts"
     }
+  },
+  {
+    'title': "Wakefern",
+    'href': "https://www2.wakefern.com",
+    'desc': "\
+IBM CLM 6.0.5 maintenance (Enterprise topology, DB11, WebSphere 9.0)#\
+•	Design and implement stream strategy#\
+•	Design and implement build strategy ( 135 project )#\
+•	Design and implement deploy strategy (base on RTC/UDC integration)#\
+•	Upgrade from CLM 5.2 to CLM 6.0.6.1 AIX 7.1#\
+UrbanCode Deploy 6.0.1 (135 projects under maintenance)#\
+•	Clone UDC PROD content and create UCD Development environment based on UCD 6.0.1#\
+•	Improve deployment scripts to WAS 9.0 AIX7.1#\
+•	Improve tag strategy#\
+•	Improve application structure#\
+",
+        'image': {
+          'desc': "Wakefern",
+          'src': "images/wakefern.png",
+          'comment': "Wakefern"
+        }
+  },
+  {
+    'title': "State Street Corporation",
+    'href': "https://www.statestreet.com",
+    'desc': "\
+• Upgrade IBM ClearCase/ClearQuest to 9.0.1.5 (707 vobs)#\
+• ClearQuest schema maintenance and improvement (PROD/QA/DEV)#\
+• IBM BuildForge maintenance 100+ perojects#\
+•	Upgrade from CLM 5.2 stand alon to to CLM 6.0.6.1 Enterprise topology Windows#\
+",
+        'image': {
+          'desc': "State Street Corporation",
+          'src': "images/statestreet.png",
+          'comment': "State Street Corporation"
+        }
   }
+
 
 ]
 

@@ -137,14 +137,14 @@ h4, h5, h6 {
 .section__exampleWrapper,
 .section__example {
   display: inline-block;
-  height: 5rem;
+  height: 3rem;
   width: 30rem;
   border-radius: 10px;
   box-shadow: 2px 2px 1px black;
 }
 
 .section__exampleWrapper {
-  margin-right: 4rem;
+  margin-right: 3rem;
   z-index: 1;
 }
 
@@ -161,14 +161,14 @@ h4, h5, h6 {
 }
 
 .section__exampleTitle{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
   text-transform: uppercase;
   width: 90%;
 }
 
 .section__exampleImage {
-  opacity: 0.25;
+  opacity: 0.15;
   width: 250%;
   margin-left: -50%;
   margin-top: -50%;

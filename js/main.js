@@ -237,7 +237,8 @@ UrbanCode Deploy 6.0.1 (135 projects under maintenance)#\
 • Upgrade IBM ClearCase/ClearQuest to 9.0.1.5 (707 vobs)#\
 • ClearQuest schema maintenance and improvement (PROD/QA/DEV)#\
 • IBM BuildForge maintenance 100+ perojects#\
-•	Upgrade from CLM 5.2 stand alon to to CLM 6.0.6.1 Enterprise topology Windows#\
+•	Upgrade from CLM 5.2 stand alon to to CLM 6.0.6.1 Enterprise topology#\
+•	Migrate DataWarehouse and Data Collection Component (CLM DW&DCC) from DB2 to the Oracle#\
 ",
         'image': {
           'desc': "State Street Corporation",

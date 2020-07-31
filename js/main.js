@@ -221,8 +221,8 @@ IBM CLM 6.0.5 maintenance (Enterprise topology, DB11, WebSphere 9.0)#\
 UrbanCode Deploy 6.0.1 (135 projects under maintenance)#\
 •	Clone UDC PROD content and create UCD Development environment based on UCD 6.0.1#\
 •	Improve deployment scripts to WAS 9.0 AIX7.1 (custome jacl scripts based on UCD WAS plugin)#\
-•	Improve tag strategy (Sugregate UCD environments between UCD applications)#\
-•	Improve application structure#\
+•	Improve UCD tag strategy (Sugregate UCD environments between UCD applications)#\
+•	Improve UCD application structure#\
 ",
         'image': {
           'desc': "Wakefern",

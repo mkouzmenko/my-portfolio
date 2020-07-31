@@ -220,8 +220,8 @@ IBM CLM 6.0.5 maintenance (Enterprise topology, DB11, WebSphere 9.0)#\
 •	Upgrade from CLM 5.2 to CLM 6.0.6.1 AIX 7.1#\
 UrbanCode Deploy 6.0.1 (135 projects under maintenance)#\
 •	Clone UDC PROD content and create UCD Development environment based on UCD 6.0.1#\
-•	Improve deployment scripts to WAS 9.0 AIX7.1#\
-•	Improve tag strategy#\
+•	Improve deployment scripts to WAS 9.0 AIX7.1 (custome jacl scripts based on UCD WAS plugin)#\
+•	Improve tag strategy (Sugregate UCD environments between UCD applications)#\
 •	Improve application structure#\
 ",
         'image': {
@@ -235,7 +235,8 @@ UrbanCode Deploy 6.0.1 (135 projects under maintenance)#\
     'href': "https://www.statestreet.com",
     'desc': "\
 • Upgrade IBM ClearCase/ClearQuest to 9.0.1.5 (707 vobs)#\
-• ClearQuest schema maintenance and improvement (PROD/QA/DEV)#\
+• Clone ClearQuest PROD environments and create ClearQuest QA and DEV (Oracle based)#\
+• ClearQuest schema pipeline maintenance and improvement (PROD/QA/DEV)#\
 • IBM BuildForge maintenance 100+ perojects#\
 •	Upgrade from CLM 5.2 stand alon to to CLM 6.0.6.1 Enterprise topology#\
 •	Migrate DataWarehouse and Data Collection Component (CLM DW&DCC) from DB2 to the Oracle#\

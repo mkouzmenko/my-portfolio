@@ -103,9 +103,9 @@ UI presentation level development, based on PHP for Apache. Data Warehouse desig
     'title': "Health Care Service Corporation",
     'href': "http://www.hcsc.com/",
     'desc': "\
-•	Adjusted existing SDLC and implement on IBM RTC#\
+•	Enhancement of existing SDLC and implementation on IBM RTC#\
 •	Adjust existing RTC Scram template to customer (HCSC) needs#\
-•	Adjust workflow/attributes/presentations based on existing workflow from ClearQuest#\
+•	implement workflow/attributes/presentations based on existing workflow from ClearQuest#\
 •	Created master/slave project architecture structure for centralize the control and simplify maintenance#\
 •	Migration from ClearQuest 7.0.1 for RTC 3.0.1.3 (>100 projects in the list)#\
 •	RTC triggers development (Dojo script)#\

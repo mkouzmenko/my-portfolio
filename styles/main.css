@@ -68,11 +68,9 @@ h4, h5, h6 {
   color: white;
   opacity: .75;
 }
-
 /*
   Helpers
 */
-
 .margin--none {
   margin: 0;
 }

@@ -33,7 +33,7 @@ const myWork = [
           'desc': "Sears Holdings Corporation",
           'src': "images/sears.png",
           'comment': "Sears Holdings Corporation"
-        }
+      }
   },
   {
     'title': "Pitney Bowes",

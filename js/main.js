@@ -246,8 +246,21 @@ UrbanCode Deploy 6.0.1 (135 projects under maintenance)#\
           'src': "images/statestreet.png",
           'comment': "State Street Corporation"
         }
+  },
+  {
+    'title': "Boeing",
+    'href': "https://www.boeing.com/",
+    'desc': "\
+• Upgrade IBM ClearCase/ClearQuest to 9.0.2 (148 vobs)#\
+• Migrate ClearQuest PROD environments two new site #\
+• ClearQuest schema pipeline maintenance and improvement (PROD/QA/DEV)#\
+",
+        'image': {
+          'desc': "Boeing",
+          'src': "images/Boeing.png",
+          'comment': "Boeing"
+        }
   }
-
 
 ]
 
